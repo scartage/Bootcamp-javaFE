@@ -1,0 +1,31 @@
+main{
+    bakground-color: violet;
+}
+
+h1 > p{
+    background-color: green;
+}
+
+#title-1{
+    background-color: none;
+}
+
+.bg-yellow{
+    background-color: none;
+}
+
+[id]{
+    background-color: none;
+}
+
+[href="https://www.yahoo.com"]{
+    background-color: crimson;
+}
+
+[href^="https"]{
+    background-color: darkmagenta;
+}
+
+[class*="title"]{
+    background-color: cyan;
+}

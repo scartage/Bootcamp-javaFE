@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+
+input:out-of-range{
+    background-color: red;
+}
+
+input:in-range{
+    background-color: green;
+}

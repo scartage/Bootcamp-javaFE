@@ -1,0 +1,22 @@
+*{
+    background-color: greenyellow;
+}
+
+span{
+    color: red;
+}
+
+span:hover{
+    color: blue;
+}
+
+.content{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+}
+
+p::selection{
+    color: white;
+    background-color: aqua;
+}
