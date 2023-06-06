@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+}
+
+.but1{
+    width: 200px;
+    height: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    border: solid 2px black;
+}
+
+.but2{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    border: solid 2px black;
+}
+
+.but3{
+    width: 200px;
+    height: 20px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    border: solid 2px black;
+}
+
+table{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px 20px 0px 0px;
+    background-color: beige;
+}
+
+span{
+    text-align: center;
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+tfoot{
+    background-color: skyblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr td{
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+thead tr th{
+    padding-top: 10px;
+}
