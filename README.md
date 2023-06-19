@@ -22,7 +22,7 @@ Este repositorio contiene la solocion a los correspondientes ejercicios del curs
   - 3.3.11. Flexbox y Grid
   - 3.3.12. Preprocesadores de CSS: Sass & SCSS + explicación de sus diferencias
   - 3.3.13. Ejercicios
--3.4. JavaScript
+- 3.4. JavaScript
   - 3.4.1.Presentació EcmaScript (ES)
   - 3.4.2.Maneres de treballar amb JavaScript i amb jQuery
   - 3.4.3.Declaració de variables
