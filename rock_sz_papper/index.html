@@ -12,17 +12,26 @@
     />
   </head>
   <body class="d-flex align-items-center justify-content-center bg-secondary-subtler">
-    <div class="container-fluid rounded vh-100 m-5 bg-success-subtle text-center display-6">
+    <div class="container-fluid rounded m-5 bg-success-subtle text-center display-6">
         <h1 class="p-4">Que comienze el juego!!</h1>
 
-        <div class="p-4 d-inline display-6">
-            <p id="show">Player:</p>
-            <p id="show-comp">Computer:</p>
+        <div>
+          <p id="game"><mark>Para jugar, pulsa algún botón :)</mark> </p>
+          <button  id="reset" type="button" class="btn btn-outline-danger">Volver a Jugar</button>
+          <p id="counter"></p>
+
+        </div>
+        <div class="p-4 display-6">
+            <div class="d-inline p-4"><span id="show">Player:</span></div>
+            <div class="d-inline p-4"><span id="show-comp">Computer:</span></div>
         </div>
 
-        <button  id="rock"   type="button" class="btn btn-outline-secondary btn-lg">🗿</button>
-        <button  id="papper" type="button" class="btn btn-outline-secondary btn-lg">📃</button>
-        <button  id="tig"    type="button" class="btn btn-outline-secondary btn-lg">✂️</button>
+        <div id="botones" class="m-4"> 
+          <button  id="rock"   type="button" class="btn btn-outline-secondary btn-lg">🗿</button>
+          <button  id="papper" type="button" class="btn btn-outline-secondary btn-lg">📃</button>
+          <button  id="tig"    type="button" class="btn btn-outline-secondary btn-lg">✂️</button>
+        </div>
+      
     </div>
 
     <script
