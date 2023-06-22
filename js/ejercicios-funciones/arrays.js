@@ -53,3 +53,6 @@ for (let index = 0; index < arr5.length; index++) {
 arr5.forEach(el => {
     console.log(el);
 })
+
+let array = ["🍕", "🍕", "🍕", "🍕", "🍕"];
+console.log(array.pop());
