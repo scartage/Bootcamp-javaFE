@@ -24,9 +24,9 @@ btn_insert.onclick = function(){
     if (index <= arr.length){
         arr.splice(index, 0 , "🍺");
         print(arr);
+        $("#in-num").css("background-color", "#ffffff");
     }else {
-
-        alert("numero no valido");
+        $("#in-num").css("background-color", "#ffc107");
     }
 }
 
@@ -46,8 +46,9 @@ btn_rem.onclick = function(){
     if (index <= arr.length){
         arr.splice(index, 1);
         print(arr);
+        $("#in2-num").css("background-color", "#ffffff");
     }else {
-        alert("indice no valido para borrar");
+        $("#in2-num").css("background-color", "#ffc107");
     }
 }
 function print(){
