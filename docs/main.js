@@ -47,8 +47,8 @@ function who_win(op_player, op_comp){
 
 function comp_game(op_player){
     $("#game").hide()
-    $("#reset").hide();;
-    document.getElementById("counter").innerHTML = `partida: ${game}/3`; 
+    $("#reset").hide();
+    document.getElementById("counter").innerHTML = `<mark>partida: ${game}/3 </mark>`; 
     let ind = Math.floor(Math.random() * 3);
     var em = arr[ind];
     document.getElementById("show-comp").innerHTML =  'Computer:' + em;
@@ -84,6 +84,7 @@ btn_reset.onclick = function(){
     game = 0;
     $("#game").hide();
     $("#reset").hide();
-    document.getElementById("counter").innerHTML = `partida: ${game}/3`; 
+    document.getElementById("counter").innerHTML = `<mark>partida: ${game}/3 </mark>`;
+    $("#botones").show(); 
 }
 
